@@ -1,0 +1,6 @@
+pyrogram==2.0.106
+TgCrypto
+SQLAlchemy==2.0.29
+psycopg2
+pymongo[srv]==3.12.3
+pyromod
