@@ -20,8 +20,8 @@ else:
     API_ID = 22427221
     API_HASH = "2785b4528c12682e515db3762463c126"
     BOT_TOKEN = "6550852346:AAHN6R9CGY0lL8RN2SF-VP9aohp6vVXVS6M"
-    DATABASE_URL = "mongodb+srv://bharathkalladi38:4TDnaR1dZqAEshQq@cluster0.ps5ucul.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-    DATABASE_URL = DATABASE_URL.replace("pymongo", "pymongo")
+    DATABASE_URL = "postgres://koyeb-adm:7yEXzg3wFtZK@ep-yellow-math-a2ziaq6n.eu-central-1.pg.koyeb.app/koyebdb"
+    DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = "-1001779717901"
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
