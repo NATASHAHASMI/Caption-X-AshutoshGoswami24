@@ -7,11 +7,7 @@ from pyrogram.types import InlineKeyboardMarkup, ReplyKeyboardMarkup
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
 async def start(bot, msg):
 	user = await bot.get_me()
-	username = user.username  # Get the username of the bot
-	if username:
-		mention = f"@{username}"  # Create a mention using the bot's username
-	else:
-		mention = "your bot"  # Default mention if username is not available
+	mention = user["mention"]
 	await bot.send_message(
 		msg.chat.id,
 		Data.START.format(msg.from_user.mention, mention),
