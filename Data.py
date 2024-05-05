@@ -10,21 +10,22 @@ Welcome to {}
 
 You can use me to manage channels with tons of features. Use below buttons to learn more !
 
-By @XAYOONARA
+By @GKBOTZ
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏴‍☠ ʜᴏᴍᴇ 🏴‍☠", callback_data="home")],
+        [InlineKeyboardButton(text="🏠 ʀᴇᴛᴜʀɴ ʜᴏᴍᴇ 🏠", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/")],
+        [InlineKeyboardButton("✨ sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/GK_BOTZ")],
         [
-            InlineKeyboardButton("ʜᴇʟᴘ❔", callback_data="help")
+            InlineKeyboardButton("ʜᴇʟᴘ❔", callback_data="help"),
+            InlineKeyboardButton("🎪 ᴀʙᴏᴜᴛ 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("🤖ᴜᴘᴅᴀᴛᴇs", url="https://t.me/")],
+        [InlineKeyboardButton("🤖ᴜᴘᴅᴀᴛᴇs", url="https://t.me/GKBOTZ")],
     ]
 
     # Help Message
@@ -48,9 +49,14 @@ Alternative Commands
     ABOUT = """
 **About This Bot** 
 
+A telegram channel automation bot by @GKBOTZ
+
+
+
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @XAYOONARA
+Developer : @Mr_SmileG
     """
+    
